@@ -26,3 +26,9 @@ To Re-run/remount the filesystem,remove lfslog file-
 >rm lfslog
 
 Repeat the Steps.
+To test the performance of the filesystem move to testcases folder using-
+>cd testcases
+
+Then make the file and run the testcases using-
+>make
+>./lfs_test
